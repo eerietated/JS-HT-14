@@ -23,6 +23,8 @@ function yearsUntilRetirement(year, userName) {
   let age = calcAge(year);
   let retirementAge = 60;
 
+  console.log(userName + " is " + age + " y/o.");
+
   if (retirementAge <= age) {
     console.log(userName + " is already retired.");
   } else {
